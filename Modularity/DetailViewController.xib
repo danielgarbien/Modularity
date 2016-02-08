@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="Modularity" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="zUP-bw-2f9" id="f7q-bS-Hxm"/>
+                <outlet property="imageView" destination="NBq-au-Y8c" id="GkW-bn-zje"/>
+                <outlet property="titleLabel" destination="reP-7m-JVg" id="Wwy-Nm-Agg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NBq-au-Y8c">
+                    <rect key="frame" x="180" y="180" width="240" height="240"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="240" id="4Bl-Ay-md8"/>
+                        <constraint firstAttribute="width" constant="240" id="Xb3-v4-UjF"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reP-7m-JVg">
+                    <rect key="frame" x="279" y="151" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUP-bw-2f9">
+                    <rect key="frame" x="277" y="548" width="46" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="zJq-wp-KU5"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="buttonTapped" destination="-1" eventType="touchUpInside" id="h1S-wQ-EM6"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NBq-au-Y8c" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="29z-A5-son"/>
+                <constraint firstItem="NBq-au-Y8c" firstAttribute="top" secondItem="reP-7m-JVg" secondAttribute="bottom" constant="8" id="B59-Kn-6pa"/>
+                <constraint firstAttribute="bottom" secondItem="zUP-bw-2f9" secondAttribute="bottom" constant="8" id="BTp-cS-eFE"/>
+                <constraint firstItem="NBq-au-Y8c" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="QPF-CG-XeB"/>
+                <constraint firstItem="reP-7m-JVg" firstAttribute="centerX" secondItem="NBq-au-Y8c" secondAttribute="centerX" id="kIY-jE-XwR"/>
+                <constraint firstItem="zUP-bw-2f9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nCi-UR-oZK"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

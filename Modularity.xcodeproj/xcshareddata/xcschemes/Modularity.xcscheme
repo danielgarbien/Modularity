@@ -85,7 +85,7 @@
          <EnvironmentVariable
             key = "launchModule"
             value = "Detail"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </EnvironmentVariable>
       </EnvironmentVariables>
       <AdditionalOptions>

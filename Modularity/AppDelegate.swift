@@ -11,13 +11,10 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    private var wireframe: Wireframe!
-
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         window = UIWindow(frame:UIScreen.mainScreen().bounds)
-        wireframe = Wireframe(window: window!)
-        wireframe.loadRootViewController()
+        window?.rootViewController = WireframeViewController(wireframe: MainWireframe())
         window?.makeKeyAndVisible()
         return true
     }

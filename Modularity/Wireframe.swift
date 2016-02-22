@@ -8,9 +8,8 @@
 
 import UIKit
 
-class Wireframe {
+class MainWireframe {
     
-    private let window: UIWindow
     private lazy var rootNavigationController: UINavigationController = {
         let navigationController = UINavigationController(rootViewController: self.masterViewController)
         navigationController.navigationBarHidden = true
@@ -19,17 +18,16 @@ class Wireframe {
     private lazy var masterViewController: MasterViewController = {
         return MasterViewController(delegate: self)
     }()
+}
+
+extension MainWireframe: Wireframe {
     
-    init(window: UIWindow) {
-        self.window = window
-    }
-    
-    func loadRootViewController() {
-        window.rootViewController = rootNavigationController
+    var rootViewController: UIViewController {
+        return rootNavigationController
     }
 }
 
-extension Wireframe: MasterViewControllerDelegate {
+extension MainWireframe: MasterViewControllerDelegate {
     
     func masterViewControllerDidSelectPerson(person: Person) {
         let detailViewController = DetailViewController(person: person, delegate: self)
@@ -37,7 +35,7 @@ extension Wireframe: MasterViewControllerDelegate {
     }
 }
 
-extension Wireframe: DetailViewControllerDelegate {
+extension MainWireframe: DetailViewControllerDelegate {
     
     func detailViewControllerDidFinish() {
         rootNavigationController.popToRootViewControllerAnimated(true)

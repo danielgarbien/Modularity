@@ -1,5 +1,5 @@
 //
-//  Wireframe.swift
+//  MainWireframe.swift
 //  Modularity
 //
 //  Created by Daniel Garbień on 01/02/16.

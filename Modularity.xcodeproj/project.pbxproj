@@ -21,7 +21,7 @@
 		65E7C3721C600E11001ADEF3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C3711C600E11001ADEF3 /* Person.swift */; };
 		65E7C3741C601438001ADEF3 /* LaunchModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C3731C601438001ADEF3 /* LaunchModule.swift */; };
 		65E7C3761C601539001ADEF3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C3751C601539001ADEF3 /* main.swift */; };
-		65E7C3781C6016AC001ADEF3 /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C3771C6016AC001ADEF3 /* Wireframe.swift */; };
+		65E7C3781C6016AC001ADEF3 /* MainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C3771C6016AC001ADEF3 /* MainWireframe.swift */; };
 		65E7C37C1C60176F001ADEF3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C37A1C60176F001ADEF3 /* DetailViewController.swift */; };
 		65E7C37D1C60176F001ADEF3 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E7C37B1C60176F001ADEF3 /* DetailViewController.xib */; };
 		65F14FA11C690F89007DD77C /* DetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F14FA01C690F89007DD77C /* DetailUITests.swift */; };
@@ -67,7 +67,7 @@
 		65E7C3711C600E11001ADEF3 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		65E7C3731C601438001ADEF3 /* LaunchModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchModule.swift; sourceTree = "<group>"; };
 		65E7C3751C601539001ADEF3 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		65E7C3771C6016AC001ADEF3 /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		65E7C3771C6016AC001ADEF3 /* MainWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWireframe.swift; sourceTree = "<group>"; };
 		65E7C37A1C60176F001ADEF3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		65E7C37B1C60176F001ADEF3 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		65F14FA01C690F89007DD77C /* DetailUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailUITests.swift; sourceTree = "<group>"; };
@@ -193,7 +193,7 @@
 		65E7C36A1C6007C6001ADEF3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				65E7C3771C6016AC001ADEF3 /* Wireframe.swift */,
+				65E7C3771C6016AC001ADEF3 /* MainWireframe.swift */,
 				65E7C36B1C6007DF001ADEF3 /* Master */,
 				65E7C3791C601746001ADEF3 /* Detail */,
 			);
@@ -358,7 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65E7C3721C600E11001ADEF3 /* Person.swift in Sources */,
-				65E7C3781C6016AC001ADEF3 /* Wireframe.swift in Sources */,
+				65E7C3781C6016AC001ADEF3 /* MainWireframe.swift in Sources */,
 				65E7C36D1C600887001ADEF3 /* MasterViewController.swift in Sources */,
 				65E7C3761C601539001ADEF3 /* main.swift in Sources */,
 				65A0A3B11C7BD38D0075DE88 /* NSLayoutConstraint+Factory.swift in Sources */,

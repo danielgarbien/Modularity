@@ -13,8 +13,8 @@ private let launchModuleEnvironmentVariableName = "launchModule"
 
 /// Launch module expected envirnment value names
 enum LaunchModule: String {
-    case Master = "master"
-    case Detail = "detail"
+    case Master
+    case Detail
 }
 
 // MARK: - To be used inside UI tests

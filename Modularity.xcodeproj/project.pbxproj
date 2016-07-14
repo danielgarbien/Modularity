@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651108BF1C7C53020039B260 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651108BE1C7C53020039B260 /* Storyboard.storyboard */; };
+		651108C21C7C53930039B260 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651108C11C7C53930039B260 /* ThirdViewController.swift */; };
+		651108C41C7C54050039B260 /* TabBarWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651108C31C7C54050039B260 /* TabBarWireframe.swift */; };
 		65A0A3AB1C7BD25E0075DE88 /* WireframeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0A3AA1C7BD25E0075DE88 /* WireframeViewController.swift */; };
 		65A0A3AD1C7BD2F30075DE88 /* UIViewController+Containment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0A3AC1C7BD2F30075DE88 /* UIViewController+Containment.swift */; };
 		65A0A3AF1C7BD3470075DE88 /* UIView+LayoutExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0A3AE1C7BD3470075DE88 /* UIView+LayoutExtensions.swift */; };
@@ -21,7 +24,7 @@
 		65E7C3721C600E11001ADEF3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C3711C600E11001ADEF3 /* Person.swift */; };
 		65E7C3741C601438001ADEF3 /* LaunchModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C3731C601438001ADEF3 /* LaunchModule.swift */; };
 		65E7C3761C601539001ADEF3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C3751C601539001ADEF3 /* main.swift */; };
-		65E7C3781C6016AC001ADEF3 /* MainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C3771C6016AC001ADEF3 /* MainWireframe.swift */; };
+		65E7C3781C6016AC001ADEF3 /* MasterDetailWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C3771C6016AC001ADEF3 /* MasterDetailWireframe.swift */; };
 		65E7C37C1C60176F001ADEF3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C37A1C60176F001ADEF3 /* DetailViewController.swift */; };
 		65E7C37D1C60176F001ADEF3 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E7C37B1C60176F001ADEF3 /* DetailViewController.xib */; };
 		65F14FA11C690F89007DD77C /* DetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F14FA01C690F89007DD77C /* DetailUITests.swift */; };
@@ -47,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		651108BE1C7C53020039B260 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		651108C11C7C53930039B260 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		651108C31C7C54050039B260 /* TabBarWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarWireframe.swift; sourceTree = "<group>"; };
 		65A0A3AA1C7BD25E0075DE88 /* WireframeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WireframeViewController.swift; sourceTree = "<group>"; };
 		65A0A3AC1C7BD2F30075DE88 /* UIViewController+Containment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Containment.swift"; sourceTree = "<group>"; };
 		65A0A3AE1C7BD3470075DE88 /* UIView+LayoutExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutExtensions.swift"; sourceTree = "<group>"; };
@@ -67,7 +73,7 @@
 		65E7C3711C600E11001ADEF3 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		65E7C3731C601438001ADEF3 /* LaunchModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchModule.swift; sourceTree = "<group>"; };
 		65E7C3751C601539001ADEF3 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		65E7C3771C6016AC001ADEF3 /* MainWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWireframe.swift; sourceTree = "<group>"; };
+		65E7C3771C6016AC001ADEF3 /* MasterDetailWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDetailWireframe.swift; sourceTree = "<group>"; };
 		65E7C37A1C60176F001ADEF3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		65E7C37B1C60176F001ADEF3 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		65F14FA01C690F89007DD77C /* DetailUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailUITests.swift; sourceTree = "<group>"; };
@@ -99,6 +105,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		651108BB1C7C527C0039B260 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				651108C31C7C54050039B260 /* TabBarWireframe.swift */,
+				651108BC1C7C52BB0039B260 /* Master Detail */,
+				651108BD1C7C52E00039B260 /* Storyboard */,
+				651108C01C7C53660039B260 /* Third Controller */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		651108BC1C7C52BB0039B260 /* Master Detail */ = {
+			isa = PBXGroup;
+			children = (
+				65E7C3771C6016AC001ADEF3 /* MasterDetailWireframe.swift */,
+				65E7C36B1C6007DF001ADEF3 /* Master */,
+				65E7C3791C601746001ADEF3 /* Detail */,
+			);
+			name = "Master Detail";
+			sourceTree = "<group>";
+		};
+		651108BD1C7C52E00039B260 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				651108BE1C7C53020039B260 /* Storyboard.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		651108C01C7C53660039B260 /* Third Controller */ = {
+			isa = PBXGroup;
+			children = (
+				651108C11C7C53930039B260 /* ThirdViewController.swift */,
+			);
+			name = "Third Controller";
+			sourceTree = "<group>";
+		};
 		65A0A3A71C7BD2310075DE88 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,9 +236,7 @@
 		65E7C36A1C6007C6001ADEF3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				65E7C3771C6016AC001ADEF3 /* MainWireframe.swift */,
-				65E7C36B1C6007DF001ADEF3 /* Master */,
-				65E7C3791C601746001ADEF3 /* Detail */,
+				651108BB1C7C527C0039B260 /* Root */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
@@ -331,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65E7C3461C60073A001ADEF3 /* LaunchScreen.storyboard in Resources */,
+				651108BF1C7C53020039B260 /* Storyboard.storyboard in Resources */,
 				65E7C37D1C60176F001ADEF3 /* DetailViewController.xib in Resources */,
 				65E7C3431C60073A001ADEF3 /* Assets.xcassets in Resources */,
 			);
@@ -358,16 +400,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				65E7C3721C600E11001ADEF3 /* Person.swift in Sources */,
-				65E7C3781C6016AC001ADEF3 /* MainWireframe.swift in Sources */,
+				65E7C3781C6016AC001ADEF3 /* MasterDetailWireframe.swift in Sources */,
 				65E7C36D1C600887001ADEF3 /* MasterViewController.swift in Sources */,
 				65E7C3761C601539001ADEF3 /* main.swift in Sources */,
 				65A0A3B11C7BD38D0075DE88 /* NSLayoutConstraint+Factory.swift in Sources */,
 				65E7C33C1C60073A001ADEF3 /* AppDelegate.swift in Sources */,
 				65E7C3741C601438001ADEF3 /* LaunchModule.swift in Sources */,
 				65E7C36F1C600D6D001ADEF3 /* MasterDataSource.swift in Sources */,
+				651108C21C7C53930039B260 /* ThirdViewController.swift in Sources */,
 				65A0A3AB1C7BD25E0075DE88 /* WireframeViewController.swift in Sources */,
 				65E7C37C1C60176F001ADEF3 /* DetailViewController.swift in Sources */,
 				65A0A3AD1C7BD2F30075DE88 /* UIViewController+Containment.swift in Sources */,
+				651108C41C7C54050039B260 /* TabBarWireframe.swift in Sources */,
 				65A0A3AF1C7BD3470075DE88 /* UIView+LayoutExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

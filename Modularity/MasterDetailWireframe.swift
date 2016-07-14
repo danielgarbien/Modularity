@@ -1,5 +1,5 @@
 //
-//  MainWireframe.swift
+//  MasterDetailWireframe.swift
 //  Modularity
 //
 //  Created by Daniel Garbień on 01/02/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainWireframe {
+class MasterDetailWireframe {
     
     private lazy var rootNavigationController: UINavigationController = {
         let navigationController = UINavigationController(rootViewController: self.masterViewController)
@@ -20,14 +20,14 @@ class MainWireframe {
     }()
 }
 
-extension MainWireframe: Wireframe {
+extension MasterDetailWireframe: Wireframe {
     
     var rootViewController: UIViewController {
         return rootNavigationController
     }
 }
 
-extension MainWireframe: MasterViewControllerDelegate {
+extension MasterDetailWireframe: MasterViewControllerDelegate {
     
     func masterViewControllerDidSelectPerson(person: Person) {
         let detailViewController = DetailViewController(person: person, delegate: self)
@@ -35,7 +35,7 @@ extension MainWireframe: MasterViewControllerDelegate {
     }
 }
 
-extension MainWireframe: DetailViewControllerDelegate {
+extension MasterDetailWireframe: DetailViewControllerDelegate {
     
     func detailViewControllerDidFinish() {
         rootNavigationController.popToRootViewControllerAnimated(true)
